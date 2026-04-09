@@ -35,3 +35,7 @@ To recreate a dataset from point clouds, one can use the models from the Tanks a
     - `\saved_toy_dataset\` : contains the .npz files to recover an instance of `ToyModel` to avoid recomputing the observations through Z-buffering.
     - `\3d_models\` : contains 3d point clouds .ply models used as landmarks.
     - `example_dataset.ipynb`: a detailed walk-through on how to create, process, visualize and export a custom dataset.
+
+
+On wayland you need to do first:
+export XDG_SESSION_TYPE=x11
